@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AnaSayfa.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DüzenleTarif.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EditMalzemeWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MalzemeEklePopup.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MalzemeEkleWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MalzemeSecWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SiralamaFiltreWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Stok.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TarifAra.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TarifDetay.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TarifEkle.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TarifListe.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AnaSayfa.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DüzenleTarif.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EditMalzemeWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MalzemeEklePopup.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MalzemeEkleWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MalzemeSecWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SiralamaFiltreWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Stok.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TarifAra.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TarifDetay.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TarifEkle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TarifListe.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

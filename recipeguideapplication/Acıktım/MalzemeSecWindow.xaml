@@ -1,0 +1,38 @@
+﻿<Window x:Class="AciktimApp.MalzemeSecWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Malzeme Seç" Height="400" Width="500"
+        WindowStartupLocation="CenterScreen" Background="#FFFAF3">
+    <Grid>
+        <Border CornerRadius="15" BorderBrush="#C4C4C4" BorderThickness="2" Padding="10" Margin="10">
+            <StackPanel Margin="20" VerticalAlignment="Center">
+                <TextBlock Text="Malzemeler" FontSize="20" FontWeight="Bold" 
+                           Foreground="#FF6B6B" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+
+                <Border CornerRadius="10" BorderBrush="#FF6B6B" BorderThickness="2" Margin="0,0,0,20">
+                    <ListBox x:Name="lstMalzemeler" SelectionMode="Multiple" 
+                             Background="White" BorderThickness="0" Height="200" Padding="5"
+                             Foreground="#FF6B6B" FontSize="16"/>
+                </Border>
+
+                <Button Content="Tamam" Width="150" Height="50" Background="#FF6B6B" 
+                        Foreground="White" FontSize="16" FontWeight="Bold"
+                        BorderBrush="#FF4C4C" BorderThickness="2" 
+                        HorizontalAlignment="Right" Margin="0,10,0,0"
+                        Click="OnTamamClicked">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border Background="{TemplateBinding Background}" CornerRadius="10" 
+                                    BorderBrush="{TemplateBinding BorderBrush}" 
+                                    BorderThickness="{TemplateBinding BorderThickness}">
+                                <ContentPresenter Content="{TemplateBinding Content}" 
+                                                  HorizontalAlignment="Center" 
+                                                  VerticalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
