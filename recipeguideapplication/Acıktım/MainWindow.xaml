@@ -4,7 +4,7 @@
         Title="Acıktım" Height="450" Width="800">
     <Grid>
         <!-- Arka plan resmi -->
-        <Image Source="C:\Users\Berra\Desktop\tarifresim\WhatsApp Image 2024-10-23 at 21.49.48.jpeg"
+        <Image Source="C:\Users\Desktop\tarifresim\WhatsApp Image 2024-10-23 at 21.49.48.jpeg"
                Stretch="UniformToFill" Opacity="0.4"/>
 
         <!-- En üst bar -->
@@ -18,7 +18,7 @@
                         <ControlTemplate TargetType="Button">
                             <Border Width="40" Height="40" CornerRadius="20" 
                                     Background="{TemplateBinding Background}">
-                                <Image Source="C:\Users\Berra\Desktop\tarifresim\WhatsApp Image 2024-10-23 at 21.49.34.jpeg"
+                                <Image Source="C:\Users\Desktop\tarifresim\WhatsApp Image 2024-10-23 at 21.49.34.jpeg"
                                        Width="35" Height="35" Stretch="Uniform"/>
                             </Border>
                         </ControlTemplate>
