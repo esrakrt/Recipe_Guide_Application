@@ -6,7 +6,7 @@ namespace Acıktım
 {
     public partial class MalzemeEkleWindow : Window
     {
-        private string connectionString = "Server=DESKTOP-D3P3LRR\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;TrustServerCertificate=True;";
+        private string connectionString = "Server=DESKTOP\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;TrustServerCertificate=True;";
 
         public MalzemeEkleWindow()
         {

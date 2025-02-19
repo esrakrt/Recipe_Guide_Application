@@ -7,7 +7,7 @@ namespace Aciktim
     public static class TarifService
     {
         private const string ConnectionString =
-            "Server=DESKTOP-D3P3LRR\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;";
+            "Server=DESKTOP\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;";
 
         public static ObservableCollection<Tarif> GetTarifler(string kategoriAdi = null)
         {

@@ -24,7 +24,7 @@ namespace Acıktım
             decimal toplamMaliyet = 0; // Toplam maliyet
             int toplamMalzemeSayisi = 0; // Toplam malzeme sayısını tutacak
 
-            string connectionString = "Server=DESKTOP-D3P3LRR\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;";
+            string connectionString = "Server=DESKTOP\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -119,7 +119,7 @@ namespace Acıktım
 
         private void LoadTarifDetay()
         {
-            string connectionString = "Server=DESKTOP-D3P3LRR\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;";
+            string connectionString = "Server=DESKTOP\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;";
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
@@ -184,7 +184,7 @@ namespace Acıktım
 
             if (tarifId > 0)
             {
-                string connectionString = "Server=DESKTOP-D3P3LRR\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;";
+                string connectionString = "Server=DESKTOP\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;";
 
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
@@ -228,7 +228,7 @@ namespace Acıktım
         private int GetTarifId(string tarifAdi)
         {
             int tarifId = -1; // Geçersiz ID başlangıcı
-            string connectionString = "Server=DESKTOP-D3P3LRR\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;";
+            string connectionString = "Server=DESKTOP\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -250,7 +250,7 @@ namespace Acıktım
         private string GetKategoriAdi(int kategoriId)
         {
             string kategoriAdi = string.Empty;
-            string connectionString = "Server=DESKTOP-D3P3LRR\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;";
+            string connectionString = "Server=DESKTOP\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {

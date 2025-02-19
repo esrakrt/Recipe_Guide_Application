@@ -17,7 +17,7 @@ namespace AciktimApp
 
         private void LoadMalzemeler()
         {
-            string connectionString = "Server=DESKTOP-D3P3LRR\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;TrustServerCertificate=True;";
+            string connectionString = "Server=DESKTOP\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;TrustServerCertificate=True;";
             string query = "SELECT MalzemeAdi FROM Malzemeler";
 
             using (SqlConnection connection = new SqlConnection(connectionString))

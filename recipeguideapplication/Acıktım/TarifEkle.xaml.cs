@@ -19,7 +19,7 @@ namespace Acıktım
         private void LoadKategoriler()
         {
             // Veritabanı bağlantı dizesi (kendi sunucu bilgilerinize göre ayarlayın)
-            string connectionString = "Server=DESKTOP-D3P3LRR\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;TrustServerCertificate=True;";
+            string connectionString = "Server=DESKTOP\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;TrustServerCertificate=True;";
 
             // SQL sorgusu
             string query = "SELECT KategoriAdi FROM Kategoriler";
@@ -73,7 +73,7 @@ namespace Acıktım
                                  "VALUES (@TarifAdi, @KategoriID, @HazirlamaSuresi, @Talimatlar, @ResimYolu); SELECT SCOPE_IDENTITY();";
 
             // Veritabanı bağlantı dizesi
-            string connectionString = "Server=DESKTOP-D3P3LRR\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;TrustServerCertificate=True;";
+            string connectionString = "Server=DESKTOP\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;TrustServerCertificate=True;";
 
             try
             {

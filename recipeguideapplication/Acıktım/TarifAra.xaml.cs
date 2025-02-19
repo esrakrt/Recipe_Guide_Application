@@ -61,7 +61,7 @@ namespace Acıktım
 
         private void LoadCategories()
         {
-            string connectionString = "Server=DESKTOP-D3P3LRR\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;TrustServerCertificate=True;";
+            string connectionString = "Server=DESKTOP\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;TrustServerCertificate=True;";
             List<string> kategoriler = new List<string>();
 
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -98,8 +98,8 @@ namespace Acıktım
                         Margin = new Thickness(5),
                         Source = new BitmapImage(new Uri(
                             eksikMaliyet > 0
-                                ? "C:\\Users\\Berra\\Desktop\\tarifresim\\png-clipart-smiley-face-emoticon-sad-miscellaneous-face-thumbnail.png"
-                                : "C:\\Users\\Berra\\Desktop\\tarifresim\\happy-face-emoji-smiley-emoticon-happiness-emotion-green-facial-expression-head-png-clipart.jpg",
+                                ? "C:\\Users\\Desktop\\tarifresim\\png-clipart-smiley-face-emoticon-sad-miscellaneous-face-thumbnail.png"
+                                : "C:\\Users\\Desktop\\tarifresim\\happy-face-emoji-smiley-emoticon-happiness-emotion-green-facial-expression-head-png-clipart.jpg",
                             UriKind.Absolute))
                     };
 
@@ -145,7 +145,7 @@ namespace Acıktım
             List<string> selectedMalzemeler, string aramaMetni, string selectedKategori = null)
         {
             var tarifler = new List<(int, string, string, int)>();
-            string connectionString = "Server=DESKTOP-D3P3LRR\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;TrustServerCertificate=True;";
+            string connectionString = "Server=DESKTOP\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;TrustServerCertificate=True;";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -258,7 +258,7 @@ namespace Acıktım
         private decimal GetEksikMalzemeMaliyeti(int tarifID)
         {
             decimal toplamMaliyet = 0;
-            string connectionString = "Server=DESKTOP-D3P3LRR\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;TrustServerCertificate=True;";
+            string connectionString = "Server=DESKTOP\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;TrustServerCertificate=True;";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {

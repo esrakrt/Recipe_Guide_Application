@@ -25,7 +25,7 @@ namespace Aciktim
         // Veritabanından kategorileri çeken metod
         private void LoadCategories()
         {
-            string connectionString = "Server=DESKTOP-D3P3LRR\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;";
+            string connectionString = "Server=DESKTOP\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;";
             string query = "SELECT KategoriAdi FROM Kategoriler;";
 
             using (SqlConnection connection = new SqlConnection(connectionString))

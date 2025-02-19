@@ -8,7 +8,7 @@
         public partial class MainWindow : Window
         {
             // Veritabanı bağlantı dizesi, sınıfın alanı olarak tanımlanıyor
-            private string connectionString = "Server=DESKTOP-D3P3LRR\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;TrustServerCertificate=True;";
+            private string connectionString = "Server=DESKTOP\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;TrustServerCertificate=True;";
 
             public MainWindow()
             {
@@ -97,7 +97,7 @@
                 Dictionary<int, (string MalzemeAdi, string ToplamMiktar, string MalzemeBirim, decimal BirimFiyat)> malzemeDict = new Dictionary<int, (string, string, string, decimal)>();
                 decimal toplamMaliyet = 0; // Toplam maliyet için bir değişken
 
-                string connectionString = "Server=DESKTOP-D3P3LRR\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;";
+                string connectionString = "Server=DESKTOP\\SQLEXPRESS;Database=TarifRehberi;Trusted_Connection=True;";
 
                 // Malzeme bilgilerini ve birim fiyatlarını almak için sorgu
                 using (SqlConnection connection = new SqlConnection(connectionString))

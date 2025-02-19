@@ -22,7 +22,7 @@
 
             <Grid Grid.Column="0" Margin="0,0,10,0">
                 <Grid.Background>
-                    <ImageBrush ImageSource="C:\Users\Berra\Desktop\tarifresim\stok.webp"
+                    <ImageBrush ImageSource="C:\Users\Desktop\tarifresim\stok.webp"
                                 Stretch="UniformToFill"
                                 AlignmentX="Center" AlignmentY="Bottom"/>
                 </Grid.Background>
